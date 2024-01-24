@@ -1,6 +1,8 @@
 
 function gradient_flow!(ϕ; steps = 1, dt=(ϕ.ls[1]*ϕ.ls[2])/50.0, tolerance = 0.0, checks = max(100,steps), print_stuff = true, dEdp = zeros(ϕ.lp[1], ϕ.lp[2], 3) )
 
+    println("Time step is ", dt )
+
     if tolerance == 0 && checks > steps
         checks = steps
     end
