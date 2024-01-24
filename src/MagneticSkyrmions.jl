@@ -1,6 +1,6 @@
 module MagneticSkyrmions
 
-using StaticArrays, GLMakie
+using StaticArrays, GLMakie, Colors
 
 export Skyrmion, overview, normer!
 
