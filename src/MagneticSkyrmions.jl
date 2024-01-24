@@ -17,7 +17,7 @@ include("diff.jl")
 export gradient_flow!, time_flow!
 
 include("plotting.jl")
-export plot_skyrmion, plot_energy
+export plot_skyrmion, plot_energy, plot_arrows
 
 """
     Skyrmion(lp::Int64, ls::Float64)

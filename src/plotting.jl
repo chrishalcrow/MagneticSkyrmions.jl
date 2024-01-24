@@ -28,7 +28,7 @@ function plot_energy(sk)
 end
 
 
-function sk_arrows(P0; SFreq=1, cut=0)
+function plot_arrows(P0; SFreq=1, cut=0)
 
     Nx = P0.lp[1]
     Ny = P0.lp[2]
